@@ -5,8 +5,7 @@
 
 .container {
 	width: 100%;
-	height: 100vh;
-	overflow: hidden;
+	height: 95vh;
 	position: relative;
 }
 
@@ -44,4 +43,22 @@
 #next {
 	left: unset;
 	right: 30px;
+}
+
+.dots-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+}
+
+.dots-container .dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: rgb(213, 213, 213);
+	margin: 0 10px;
+}
+
+.dots-container .active {
+	background: gray;
 }
